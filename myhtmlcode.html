@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FORM</title>
+</head>
+
+<body>
+
+<h2>Simple Application Form Creation</h2>
+
+<form>
+<b>Name: </b><input type="text" value="Enter name"><br><br>
+<div><label>Name: </label><input type="text" placeholder="Enter name"></div><br>
+
+<label>password: </label><input type="text" placeholder="Enter password">
+<label>password: </label><input type="password" placeholder="Enter password"><br><br>
+
+<label>DOB: </label><input type="date"><br><br>
+<!--<label>DOB: </label><input type="text"><br>-->
+
+<label>Gender: </label><input type="radio" value="male">Male
+<input type="radio" value="female" >Female<br>
+
+<label>Gender: </label><input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female<br><br>
+
+
+<label>Email: </label><input type="email"><br><br>
+
+
+<label>Languages known: </label><br><br>
+<input type="checkbox" name="Language" value="c">C<br><br>
+<input type="checkbox" name="Language1" value="c++">C++<br><br>
+<input type="checkbox" name="Language2" value="Java">Java<br><br>
+<input type="checkbox" name="Language3" value="Linux">Linux<br><br>
+
+<label> Department: </label>
+<select>
+<option name="dept" value="AI" > AI</options>
+<option name="dept" value="IT"> IT</options>
+<option name="dept" value="CSE"> CSE</options>
+<option name="dept" value="ECE"> ECE</options>
+<option name="dept" value="EEE"> EEE</options>
+</select><br><br>
+
+<label> Upload Resume</label>
+<input type="file"><br><br>
+
+<input type="submit" value="SUBMIT"><br><br>
+<input type="reset" value="RESET"><br><br>
+
+
+</form>
+</body>
